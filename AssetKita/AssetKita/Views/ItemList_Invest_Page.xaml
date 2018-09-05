@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AssetKita.Views.ItemList_Invest_Page"
+             Title="{Binding Title}">
+
+    <ListView ItemsSource="{Binding PostItems, Mode=TwoWay}"
+              SeparatorVisibility="None"
+              CachingStrategy="RecycleElement"
+              HasUnevenRows="True"
+              x:Name="listview_item">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Frame Padding="0" Margin="10">
+                        <Frame.HasShadow>
+                            <OnPlatform x:TypeArguments="x:Boolean" iOS="True" Android="True">
+                            </OnPlatform>
+                        </Frame.HasShadow>
+                        <Frame.BorderColor>
+                            <OnPlatform x:TypeArguments="Color" iOS="Transparent" Android="Default"/>
+                        </Frame.BorderColor>
+                        <Frame.BackgroundColor>
+                            <OnPlatform x:TypeArguments="Color" iOS="Transparent" Android="Default"/>
+                        </Frame.BackgroundColor>
+                        <Grid HorizontalOptions="FillAndExpand"
+                              VerticalOptions="FillAndExpand"
+                              Padding="10"
+                              RowSpacing="5"
+                              ColumnSpacing="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Image Grid.Column="0"
+                                   Grid.Row="0"
+                                   Grid.RowSpan="5"
+                                   Margin="0,0,10,0"
+                                   Source="{Binding IMAGE_LINK}"
+                                   Aspect="AspectFill"/>
+                            <!--<Image Grid.Column="0"
+                       Grid.Row="0"
+                       Grid.RowSpan="4"
+                       Margin="0,0,10,0"
+                       x:Name="image_fromEmbed"
+                       Aspect="AspectFill"/>-->
+
+                            <Label Text="{Binding NAME}"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       Grid.Column="1"
+                       Grid.Row="0"
+                       Grid.ColumnSpan="4"/>
+
+                            <Label Text="Kategori"
+                       Grid.Column="1"
+                       Grid.Row="1"/>
+                            <Label Text="Bunga"
+                       Grid.Column="1"
+                       Grid.Row="2"/>
+                            <Label Text="Durasi"
+                       Grid.Column="1"
+                       Grid.Row="3"/>
+
+                            <Label Text=":"
+                       Grid.Column="2"
+                       Grid.Row="1"/>
+                            <Label Text=":"
+                       Grid.Column="2"
+                       Grid.Row="2"/>
+                            <Label Text=":"
+                       Grid.Column="2"
+                       Grid.Row="3"/>
+
+                            <Label Text="{Binding CATEGORY}"
+                       Grid.Column="3"
+                       Grid.Row="1"/>
+                            <Label Text="{Binding ASKING_INTEREST_RATE}"
+                       Grid.Column="3"
+                       Grid.Row="2"/>
+                            <Label Text="{Binding DURATION}"
+                       Grid.Column="3"
+                       Grid.Row="3"/>
+                            <Label x:Name="label_price"
+                       FontSize="Medium"
+                       TextColor="#FF6F00"
+                       Grid.Column="1"
+                       Grid.Row="4"
+                       Grid.ColumnSpan="4"/>
+                        </Grid>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

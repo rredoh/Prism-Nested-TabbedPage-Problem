@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AssetKita.Views.Item_TabbedPage"
+            xmlns:Existing_Page="clr-namespace:AssetKita.Views"
+            Title="{Binding Title}">
+    <!--Pages can be added as references or inline-->
+    <Existing_Page:ItemList_Gadai_Page/>
+    <Existing_Page:ItemList_Invest_Page/>
+</TabbedPage>

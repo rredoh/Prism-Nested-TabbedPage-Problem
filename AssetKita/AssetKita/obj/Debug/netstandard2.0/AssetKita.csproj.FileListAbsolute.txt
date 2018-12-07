@@ -20,3 +20,7 @@ D:\Xamarin Repro\PrismNestedTabbedPageRepro\AssetKita\AssetKita\obj\Debug\netsta
 D:\Xamarin Repro\PrismNestedTabbedPageRepro\AssetKita\AssetKita\bin\Debug\netstandard2.0\AssetKita.dll.mdb
 D:\Xamarin Repro\PrismNestedTabbedPageRepro\AssetKita\AssetKita\obj\Debug\netstandard2.0\AssetKita.dll.mdb
 D:\Xamarin Repro\PrismNestedTabbedPageRepro\AssetKita\AssetKita\bin\Debug\netstandard2.0\AssetKita.dll.mdb
+D:\Xamarin Repro\PrismNestedTabbedPageRepro\AssetKita\AssetKita\obj\Debug\netstandard2.0\AssetKita.dll.mdb
+D:\Xamarin Repro\PrismNestedTabbedPageRepro\AssetKita\AssetKita\bin\Debug\netstandard2.0\AssetKita.dll.mdb
+D:\Xamarin Repro\PrismNestedTabbedPageRepro\AssetKita\AssetKita\obj\Debug\netstandard2.0\AssetKita.dll.mdb
+D:\Xamarin Repro\PrismNestedTabbedPageRepro\AssetKita\AssetKita\bin\Debug\netstandard2.0\AssetKita.dll.mdb

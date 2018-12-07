@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "MonoAndroid,Version=v8.1": {
+    "MonoAndroid,Version=v9.0": {
       "DryIoc.dll/3.0.2": {
         "type": "package",
         "compile": {
@@ -930,7 +930,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "MonoAndroid,Version=v8.1": [
+    "MonoAndroid,Version=v9.0": [
       "AssetKita >= 1.0.0",
       "Prism.DryIoc.Forms >= 7.1.0.431",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
@@ -959,7 +959,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "monoandroid81"
+        "monoandroid90"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -970,7 +970,7 @@
         "https://www.myget.org/F/xamarinforms-ci/api/v3/index.json": {}
       },
       "frameworks": {
-        "monoandroid81": {
+        "monoandroid90": {
           "projectReferences": {
             "D:\\Xamarin Repro\\PrismNestedTabbedPageRepro\\AssetKita\\AssetKita\\AssetKita.csproj": {
               "projectPath": "D:\\Xamarin Repro\\PrismNestedTabbedPageRepro\\AssetKita\\AssetKita\\AssetKita.csproj"
@@ -980,7 +980,7 @@
       }
     },
     "frameworks": {
-      "monoandroid81": {
+      "monoandroid90": {
         "dependencies": {
           "Prism.DryIoc.Forms": {
             "target": "Package",

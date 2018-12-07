@@ -28,8 +28,8 @@ namespace AssetKita.ViewModels
         {
             IsActiveChanged += (sender, e) => System.Diagnostics.Debug.WriteLine($"{Title} IsActive: {IsActive}");
         }
-
-        public override void OnNavigatingTo(NavigationParameters parameters)
+        
+        public override void OnNavigatingTo(INavigationParameters parameters)
         {
             System.Diagnostics.Debug.WriteLine($"{Title} is executing OnNavigatingTo");
             var message = parameters.GetValue<string>("message");

@@ -16,7 +16,7 @@ namespace AssetKita.Views {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Main_TabbedPage.xaml")]
     public partial class Main_TabbedPage : global::Xamarin.Forms.TabbedPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Main_TabbedPage));
         }
